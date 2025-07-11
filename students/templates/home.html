@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <div class="text-center">
+    <h2 class="mb-4">Welcome to the Student Info Portal</h2>
+    <a href="{% url 'add_student' %}" class="btn btn-primary btn-lg mx-2">➕ Add a Student</a>
+    <a href="{% url 'search_student' %}" class="btn btn-success btn-lg mx-2">🔍 View a Student</a>
+    <a href="{% url 'view_all_students' %}" class="btn btn-secondary btn-lg mx-2">👥All Students</a>
+  
+
+  </div>
+{% endblock %}
+
